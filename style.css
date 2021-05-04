@@ -1,0 +1,102 @@
+body {
+  background: #ffffff;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.flag-1 {
+  position: relative;
+  top: -27px;
+  left: -8px;
+  width: 120px;
+  height: 35px;
+  background: #964090;
+  border-radius: 50px;
+  transform: rotate(135deg);
+}
+
+.flag-2 {
+  position: relative;
+  top: -10px;
+  left: -30px;
+  width: 270px;
+  height: 35px;
+  background: #de631c;
+  border-radius: 50px;
+  transform: rotate(135deg);
+}
+
+.flag-2 .details-flag {
+  position: relative;
+  z-index: 2;
+  width: 80px;
+  height: 35px;
+  border-radius: 50px;
+  background: #f28d00;
+}
+
+.flag-3 {
+  position: relative;
+  top: 0;
+  left: -49px;
+  width: 400px;
+  height: 35px;
+  background: #bf3442;
+  border-radius: 50px;
+  transform: rotate(135deg);
+}
+
+.flag-3 .details-flag {
+  position: relative;
+  z-index: 2;
+  width: 80px;
+  height: 35px;
+  border-radius: 50px;
+  background: #e13858;
+}
+
+.flag-4 {
+  position: relative;
+  top: 10px;
+  left: 62px;
+  width: 270px;
+  height: 35px;
+  background: #00a38a;
+  border-radius: 50px;
+  transform: rotate(135deg);
+}
+
+.flag-4 .details-flag {
+  position: relative;
+  z-index: 2;
+  width: 80px;
+  height: 35px;
+  border-radius: 50px;
+  background: #52bbaf;
+}
+
+.flag-5 {
+  position: relative;
+  top: 30px;
+  left: 191px;
+  width: 120px;
+  height: 35px;
+  background: #61aee1;
+  border-radius: 50px;
+  transform: rotate(135deg);
+}
