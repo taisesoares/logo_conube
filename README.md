@@ -1,1 +1,3 @@
-# logo_conube
+# Logo Empresa Conube Contabilidade
+
+Logo desenvolvido com CSS.
